@@ -12,7 +12,7 @@ public class Receivesms {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+	
 		//https://29ccde89.ngork.io/receive-sms
 		get("/", (req, res) -> "Hello, World");
 		post("/receive-sms", (req,res) -> {
