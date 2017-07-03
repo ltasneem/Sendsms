@@ -19,7 +19,8 @@ public class Sendsms {
 	
 	public static void main(String [] args)
 	{
-		Twilio.init("AC82813d309984d60c6e299f503627443b", "b66ed61f6eca8e5131392ded9f6bc9b4");
+		
+		Twilio.init("A","B");
 		//
 		Message message = Message.creator( 
 						new PhoneNumber("+15712143827"),new PhoneNumber("+12408984566"),
